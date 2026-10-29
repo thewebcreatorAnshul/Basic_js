@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  
+}
+
+.container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.page{  
+    height: 100vh;
+    position: sticky;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 2rem;
+   
+}
+
+#page1{
+    background: radial-gradient(yellow);
+    top: 5%;
+}
+
+#page2{
+
+    background: rgb(0, 255, 225);
+    top: 10%;
+}
+
+#page3{
+    background: rgb(172, 243, 49);
+    top: 20%;
+}
+
+#page4{
+    background: rgb(255, 0, 140);
+    top: 30%;
+}

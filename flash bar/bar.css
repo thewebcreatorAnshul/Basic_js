@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#parent {
+    height: 70px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 5px;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anime {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

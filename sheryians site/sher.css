@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: fixed;
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-bottom: 3px solid #424443;
+}
+
+h2{
+    padding-left: 80px;
+    color: aliceblue;
+    font-size: 36px;
+}
+
+#nav2{
+    padding-right: 50px;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;   
+}
+
+#next{
+    display: flex;
+}
+
+#left{
+    height: calc(100% - 60px);
+    color: aliceblue;
+    height: calc(100% - 8%);
+    width: 60%;
+    padding: 80px;
+}
+
+h1{
+    color:#424443;
+    font-size: 70px;
+}
+
+p{
+    color: #424443;
+    padding: 30px 300px 30px 0px ;
+}
+
+span{
+    font-size: 90px;
+    color: orange;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+.ri-ancient-pavilion-line{
+    font-size: 40px;
+    color: orange;
+}
+
+i{
+    font-size: 18px;
+    color: orange;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+    display: flex;
+    gap: 3vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 4, 44);
+}
+
+h1{
+    font-size: 15vh;
+    color: salmon;
+}
+    
+h4{
+    font-size: 7vh;
+    color : gold
+}
+button{
+    font-size: 2.5vh;
+    background-color: rgba(234, 43, 43, 0.361);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px; 
+}
+button:active{
+    scale: 0.90 ;
+}
